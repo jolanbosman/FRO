@@ -1,0 +1,11 @@
+body{
+	background: Gray;
+}
+
+.wrapper{
+background-color: red;
+width: 300px;
+text-align: center;
+border-radius: 15px;
+margin: auto;
+}

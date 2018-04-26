@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 1em;
+  font-family: sans-serif;
+  background-image: url('natuur.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.trigger img{
+  height: 4em;
+}
+
+#modaalAchtergrond{
+  background-color: rgba(0,0,0,0.5);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+}
+
+#venster{
+  width: 80vh;
+  justify-self: center;
+  align-self: center;
+  background-color: white;
+  max-height: 90vh;
+  overflow: auto;
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+10% { opacity: 0.1; }
+20% { opacity: 0.2; }
+30% { opacity: 0.3; }
+40% { opacity: 0.4; }
+50% { opacity: 0.5; }
+60% { opacity: 0.6; }
+70% { opacity: 0.7; }
+80% { opacity: 0.8; }
+90% { opacity: 0.9; }
+100% { opacity: 1; }
+}
+.inhoud{
+  padding: 2em;
+}
+
+#sluitKnop{
+  border: none;
+  background: none;
+  font-size: 30px;
+  padding: 0px;
+}
+
+#sluitKnop:hover{
+  border: none;
+  background: none;
+  color: red;
+}
+
+
+#wrapper{
+    background-color: rgba(255,255,255,0.5);
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: -50px;
+    border: 2px solid black;
+  }
